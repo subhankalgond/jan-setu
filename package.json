@@ -1,0 +1,14 @@
+{
+  "name": "jan-setu-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Intelligent Citizen-Assistance Platform for Indian Government Schemes",
+  "scripts": {
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "python backend/main.py",
+    "build:frontend": "cd frontend && npm run build",
+    "test:backend": "python -m pytest backend/tests/test_all.py -v",
+    "seed:backend": "python backend/seed_data.py"
+  }
+}
+
