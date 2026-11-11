@@ -13,4 +13,3 @@
     "seed:backend": "python backend/seed_data.py"
   }
 }
-
